@@ -48,7 +48,7 @@ bool rome::check_rome(const std::string in_rome)
 	return true;
 }
 
-//converts lower case rome to upper case
+//converts lower case roman numeral to upper case roman numeral
 std::string rome::lower_to_upper(const std::string in_rome)
 {
 	std::string temp = in_rome;
