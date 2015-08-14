@@ -1,16 +1,14 @@
-﻿Build started 02.08.2015 13:34:14.
+﻿Build started 14.08.2015 04:55:06.
      1>Project "D:\Programmieren\Projects\Tafelwerk\Tafelwerk\Tafelwerk.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\Programme\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         Skipping... (no relevant changes detected)
-         main.cpp
+         D:\Programme\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt rome.cpp
+         rome.cpp
        Link:
          D:\Programme\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programmieren\Projects\Tafelwerk\Debug\Tafelwerk.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Programmieren\Projects\Tafelwerk\Debug\Tafelwerk.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programmieren\Projects\Tafelwerk\Debug\Tafelwerk.lib" /MACHINE:X86 Debug\main.obj
          Debug\rome.obj
-     1>rome.obj : error LNK2019: unresolved external symbol "public: bool __thiscall rome::check_rome(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?check_rome@rome@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: __thiscall rome::rome(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0rome@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-     1>D:\Programmieren\Projects\Tafelwerk\Debug\Tafelwerk.exe : fatal error LNK1120: 1 unresolved externals
-     1>Done Building Project "D:\Programmieren\Projects\Tafelwerk\Tafelwerk\Tafelwerk.vcxproj" (Build target(s)) -- FAILED.
+         Tafelwerk.vcxproj -> D:\Programmieren\Projects\Tafelwerk\Debug\Tafelwerk.exe
+     1>Done Building Project "D:\Programmieren\Projects\Tafelwerk\Tafelwerk\Tafelwerk.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.43
+Time Elapsed 00:00:00.56

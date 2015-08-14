@@ -2,5 +2,6 @@
 
 void main(void)
 {
-	rome asdf("wer");
+	rome asdf("idx");
+	std::cout << "end\n";
 }
