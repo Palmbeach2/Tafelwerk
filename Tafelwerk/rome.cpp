@@ -7,6 +7,7 @@ rome::rome(const std::string in_rome)
 	if (check_rome(in_rome) == true)
 	{
 		mem_rome = rome::lower_to_upper(in_rome);
+		rome::rome_to_arab(in_rome,&this->mem_arab);
 	}
 }
 
@@ -23,7 +24,13 @@ rome::~rome()
 //methods
 bool rome::rome_to_arab(const std::string in_rome, int* in_arab)
 {
-	return true;
+	bool ret_val = check_rome(in_rome);
+
+	for (unsigned int i = 0; i < in_rome.length(); i++)
+	{
+		std::cout << (digit) in_rome[i] << "\n";
+	}
+	return ret_val;
 }
 
 bool rome::arab_to_rome(const int in_arab, std::string* in_rome)
@@ -39,8 +46,7 @@ bool rome::check_rome(const std::string in_rome)
 	{
 		if (temp[i] != 73 && temp[i] != 86 && temp[i] != 88 && temp[i] != 76 && temp[i] != 67 && temp[i] != 68 && temp[i] != 77)
 		{
-			std::cout << (int) temp[i];
-			std::cerr << temp << " is no valid Roman numeral!\n";
+			std::cerr  << temp << " is no valid Roman numeral!\n";
 			return false;
 		}
 	}
@@ -61,4 +67,3 @@ std::string rome::lower_to_upper(const std::string in_rome)
 	}
 	return temp;
 }
-
